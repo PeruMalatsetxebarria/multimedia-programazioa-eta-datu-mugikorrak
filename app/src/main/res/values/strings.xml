@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">helloworld</string>
+    <string name="toast_message">Hau toast mezu bat da</string>
 </resources>
