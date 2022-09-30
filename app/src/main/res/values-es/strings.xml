@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">holamundo</string>
+    <string name="toast_message">Hola este es un mensaje toast</string>
+    <string name="TOAST">MENSAJE</string>
+    <string name="Zero">Cero</string>
+    <string name="COUNT">CONTAR</string>
+</resources>

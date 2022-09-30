@@ -11,11 +11,11 @@
         android:id="@+id/button2"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="52dp"
         android:onClick="showToast"
-        android:text="TOAST"
+        android:text="@string/TOAST"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.251"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,14 +23,14 @@
         android:id="@+id/button3"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="80dp"
         android:onClick="turnZero"
-        android:rotation="-21"
+        android:rotation="-306"
         android:rotationX="29"
         android:rotationY="-21"
-        android:text="Zero"
+        android:text="@string/Zero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,11 +38,11 @@
         android:id="@+id/button"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="200dp"
         android:onClick="countUp"
-        android:text="COUNT"
+        android:text="@string/COUNT"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.224"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,11 +53,12 @@
         android:layout_marginTop="80dp"
         android:rotation="0"
         android:shadowColor="#FFFFFF"
-        android:text="0"
+        android:text="@string/huts"
         android:textAlignment="center"
         android:textColor="#21D529"
         android:textSize="96sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
